@@ -1,0 +1,19 @@
+{
+  "name": "nomadcoffee-backend",
+  "version": "1.0.0",
+  "description": "instagram challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wooseberry/nomadcoffee-backend.git"
+  },
+  "author": "wooseberry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wooseberry/nomadcoffee-backend/issues"
+  },
+  "homepage": "https://github.com/wooseberry/nomadcoffee-backend#readme"
+}
