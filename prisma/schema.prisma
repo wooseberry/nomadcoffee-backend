@@ -7,14 +7,18 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL") 
+  url      = env("DATABASE_URL")
 }
 
-model Movie {
+
+model User {
   id Int @default(autoincrement()) @id
-  title String
-  year Int
-  genre String?
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  username String
+  email String
+  name String
+  location String?
+  password String
+  avatarURL String?
+  githubUsername String?
+
 }
